@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+body{
+    background-color: #11192C;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    padding: 26px;
+    width: 288px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.25);
+}
+/* .main{
+    width: 17vw;
+} */
+.title{
+    color: #6EE0E2;
+    margin-top: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sub-heading{
+    color: #67779A;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(110, 224, 226, 1);
+    opacity : 70%;  
+    border-radius: 10px;
+}
+.eye{
+    background: url(images/icon-view.svg)no-repeat center center / cover;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+
+}
+.image{
+    position: relative;
+    background: url(images/image-equilibrium.jpg) no-repeat center center / cover;
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+/* .image img{
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+} */
+.eth{
+    color: #67779A;
+}
+.author-name{
+    color: #67779A;
+    font-size: 14px;
+}
+span{
+    color: #6EE0E2;
+    cursor: pointer;
+}
+.author{
+    align-items: center;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar img{
+    width: 30px;
+    border-radius: 50%;
+    border: white 1px solid;
+    margin-right: 10px;
+}
+.group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.img-svg{
+    margin-right: 5px;
+}
+.etherium{
+    justify-content: center;
+    align-items: center;
+}
+.etherium, .time-left, .group, .author {
+    display: flex;
+    
+}
+.avatar{
+    margin-right: 6px;
+}
+.divider{
+    height: 0.8px;
+    background-color: #fff;
+    opacity: 30%;
+    margin-bottom: 20px;
+}
